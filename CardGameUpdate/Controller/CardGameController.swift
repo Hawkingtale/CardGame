@@ -30,8 +30,8 @@ class CardGameConroller : UIViewController
         
         if let currentCard = cardDeck.drawCard() as? PlayingCard
         {
-            cardButton.setTtle(",\(currentCard.rank) \(currentCard.suit)", forState:
-            UIControlState.Normal)
+            cardButton.setTtle("\(currentCard.getCardData())", forState:
+                UIControlState.Normal)
         }
         else
         {

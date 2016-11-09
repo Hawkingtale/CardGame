@@ -69,7 +69,10 @@ class Playingcard : Card
     {
         return suit
     }
-    
+    func getCardData() ->String
+    {
+        
+}
     override func toString() ->String
     {
         let description = "The Card rank is  \(rank) and its suit is \(suit). and it has \(color)"
