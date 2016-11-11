@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F5988021DD6571C000DB4AF /* CardGameUpdate in Resources */ = {isa = PBXBuildFile; fileRef = 9F5988011DD6571C000DB4AF /* CardGameUpdate */; };
+		9F5988041DD6573E000DB4AF /* StupidGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5988031DD6573E000DB4AF /* StupidGame.swift */; };
 		9F9E28741DCA77BB00736910 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9E28731DCA77BB00736910 /* AppDelegate.swift */; };
 		9F9E28791DCA77BB00736910 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F9E28771DCA77BB00736910 /* Main.storyboard */; };
 		9F9E287B1DCA77BB00736910 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F9E287A1DCA77BB00736910 /* Assets.xcassets */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F5988011DD6571C000DB4AF /* CardGameUpdate */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CardGameUpdate; sourceTree = "<group>"; };
+		9F5988031DD6573E000DB4AF /* StupidGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StupidGame.swift; sourceTree = "<group>"; };
 		9F9E28701DCA77BB00736910 /* CardGameUpdate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardGameUpdate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F9E28731DCA77BB00736910 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F9E28781DCA77BB00736910 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -48,6 +52,7 @@
 			children = (
 				9F9E28721DCA77BB00736910 /* CardGameUpdate */,
 				9F9E28711DCA77BB00736910 /* Products */,
+				9F5988011DD6571C000DB4AF /* CardGameUpdate */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +82,7 @@
 				9FB11BE71DD11F0300D0C2A1 /* PlyingCardDeck.swift */,
 				9F9E28891DCA786F00736910 /* PlayingCard.swift */,
 				9FB11BE51DD115DC00D0C2A1 /* Deck.swift */,
+				9F5988031DD6573E000DB4AF /* StupidGame.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -159,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F9E287E1DCA77BB00736910 /* LaunchScreen.storyboard in Resources */,
+				9F5988021DD6571C000DB4AF /* CardGameUpdate in Resources */,
 				9F9E287B1DCA77BB00736910 /* Assets.xcassets in Resources */,
 				9F9E28791DCA77BB00736910 /* Main.storyboard in Resources */,
 			);
@@ -175,6 +182,7 @@
 				9F9E288B1DCA786F00736910 /* PlayingCard.swift in Sources */,
 				9FB11BE61DD115DC00D0C2A1 /* Deck.swift in Sources */,
 				9F9E288A1DCA786F00736910 /* Card.swift in Sources */,
+				9F5988041DD6573E000DB4AF /* StupidGame.swift in Sources */,
 				9F9E288D1DCA787900736910 /* CardGameController.swift in Sources */,
 				9FB11BE81DD11F0300D0C2A1 /* PlyingCardDeck.swift in Sources */,
 			);
